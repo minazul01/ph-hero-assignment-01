@@ -271,52 +271,49 @@ body {
     margin-bottom: 50px;
 }
 
-.my-current-target-section .my-current-target-1 {
+.my-current-target-section .card-container .card {
+    background-color: #FFF6F4;
+    margin-top: 50px;
     width: 364px;
     height: 299px;
-    background: #FFF6F4;
-    border: 5px solid blue;
-    margin-top: 50px;
-    
+    border: 4px solid red;
 }
 
-.my-current-target-section .my-current-target-1 .my-target {
-    width: 284px;
-    height: 219px;
-    /* display: flex; */
-    
-
-    margin: 30px auto;
-    border: 7px solid red;
+.my-current-target-section .card-container .card img {
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
-.my-current-target-section .my-current-target-1 .html-lang {
+.my-current-target-section .card-container .card .inside-text {
+    margin-bottom: 20px;
+    margin-left: 30px;
     color: rgb(13, 19, 33);
+
     font-size: 24px;
     font-weight: 800;
     line-height: 36px;
     letter-spacing: 0%;
     text-align: left;
-    margin-top: 15px;
-    margin-bottom: 15px;
 }
-
-.my-current-target-section .my-current-target-1 .html-para {
+.my-current-target-section .card-container .card .card-para {
     color: rgb(13, 19, 33);
-    font-size: 13px;
+    font-family: Azeret Mono;
+    font-size: 18px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    margin-left: 30px;
     margin-bottom: 20px;
 }
-
-.my-current-target-section .my-current-target-1 .learn {
+.my-current-target-section .card-container .card .learn {
     color: rgb(13, 19, 33);
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
     text-decoration-line: underline;
+    margin-left: 30px;
 }
