@@ -239,3 +239,84 @@ body {
 }
 
 /* third section start now */
+.my-current-target-section {
+    width: 1140px;
+    height: 480px;
+    margin: 80px auto;
+    border: 3px solid red;
+}
+
+.my-current-target-section .my-current-target {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.my-current-target-section .my-current-target .my-current-target-head {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+}
+
+.my-current-target-section .my-current-target .my-current-target-para {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.my-current-target-section .my-current-target-1 {
+    width: 364px;
+    height: 299px;
+    background: #FFF6F4;
+    border: 5px solid blue;
+    margin-top: 50px;
+    
+}
+
+.my-current-target-section .my-current-target-1 .my-target {
+    width: 284px;
+    height: 219px;
+    /* display: flex; */
+    
+
+    margin: 30px auto;
+    border: 7px solid red;
+}
+
+.my-current-target-section .my-current-target-1 .html-lang {
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.my-current-target-section .my-current-target-1 .html-para {
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.my-current-target-section .my-current-target-1 .learn {
+    color: rgb(13, 19, 33);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
