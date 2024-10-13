@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+/* navbar style start now */
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-head {
+    color: rgb(13, 19, 33);
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+.btn-1 {
+    color: rgb(13, 19, 33);
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 8px 15px 8px 15px;
+    text-align: center;
+}
+
+.navbar {
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-right: 150px;
+    margin-top: 40px;
+    opacity: 0.8;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* header section start now */
+.header-section {
+    max-width: 1440px;
+    height: 590px;
+    background-image: url(/assets/Hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-section .img-tittle {
+    width: 998px;
+    height: 581px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section .img-tittle .header-img {
+    width: 240.28px;
+    height: 240px;
+}
+
+.header-section .img-tittle .header-head {
+    width: 700px;
+    height: 100px;
+    color: rgb(13, 19, 33);
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.header-section .img-tittle .header-para {
+    width: 652px;
+    height: 42px;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header-section .img-tittle .btn-2 {
+    width: 200px;
+    height: 55px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+
+/* main section style start now */
+.main-container {
+    background: rgba(13, 19, 33, 0.02);
+    max-width: 1140px;
+    height: 1150px;
+    margin: 120px auto;
+}
+
+.main-container .my-developer {
+    width: 852px;
+    height: 113px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.main-container .my-developer .my-developer-head {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.main-container .my-developer .my-developer-para {
+    color: rgb(13, 19, 33);
+    margin-top: 20px;
+    margin-bottom: 45px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.main-container .my-developer-1 {
+    width: 946px;
+    height: 300px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-container .my-developer-1 .my-developer-tittle {
+    width: 477px;
+    height: 219px;
+    margin-top: 30px;
+}
+
+.main-container .my-developer-1 .my-developer-img {
+    width: 259.56px;
+    height: 217.01px;
+}
+
+.main-container .my-developer-1 .my-developer-img img {
+    width: 100%;
+}
+
+.main-container .my-developer-1 .my-developer-tittle .coding-head {
+    color: rgba(13, 19, 33, 0.7);
+    margin-bottom: 15px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-container .my-developer-1 .my-developer-tittle .coding-para {
+    color: rgb(13, 19, 33);
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.main-container .my-developer-1 .my-developer-tittle .coding-btn {
+    color: rgb(13, 19, 33);
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+/* main 2nd section start now */
+.two-section {
+    width: 1140px;
+    height: 775px;
+    margin: 0 auto;
+}
+
+.two-section .my-inspiration {
+    width: 852px;
+    height: 113px;
+    margin: 0 auto;
+}
+
+.two-section .my-inspiration .my-inspiration-head {
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.two-section .my-inspiration .my-inspiration-para {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-top: 25px;
+    margin-bottom: 45px;
+}
+
+.two-section .my-youtube-video {
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* third section start now */
