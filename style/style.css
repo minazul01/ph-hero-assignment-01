@@ -30,6 +30,7 @@ body {
     line-height: 23px;
     padding: 8px 15px 8px 15px;
     text-align: center;
+    cursor: pointer;
 }
 
 .navbar {
@@ -105,6 +106,11 @@ body {
     text-align: center;
     border-radius: 8px;
     margin-top: 30px;
+    cursor: pointer;
+}
+.anchor-btn{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -334,6 +340,7 @@ body {
     text-align: left;
     text-decoration-line: underline;
     margin-left: 30px;
+    cursor: pointer;
 }
 
 
@@ -434,5 +441,12 @@ body {
 .last-img{
     margin-right: 150px;
     gap: 20px;
+    cursor: pointer;
+}
+
+/* anchor style */
+a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
     cursor: pointer;
 }
