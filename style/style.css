@@ -49,7 +49,7 @@ body {
 .header-section {
     max-width: 1440px;
     height: 590px;
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -349,7 +349,7 @@ body {
     max-width: 1140px;
     height: 313px;
     margin: 65px auto;
-    background-image: url(/assets/handshake.jpg);
+    background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
