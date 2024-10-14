@@ -269,16 +269,30 @@ body {
     margin-top: 25px;
     margin-bottom: 50px;
 }
-.card-container{
+
+.card-container {
     display: flex;
     justify-content: space-between;
 }
+
 .card-container .card {
-    background-color: #FFF6F4;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
     margin-top: 50px;
     width: 364px;
     height: 330px;
     gap: 25px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#write {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+#bite {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
 }
 
 .card-container .card img {
@@ -298,6 +312,7 @@ body {
     letter-spacing: 0%;
     text-align: left;
 }
+
 .card-container .card .card-para {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
@@ -309,6 +324,7 @@ body {
     margin-left: 30px;
     margin-bottom: 20px;
 }
+
 .card-container .card .learn {
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -319,3 +335,79 @@ body {
     text-decoration-line: underline;
     margin-left: 30px;
 }
+
+
+/* footer section start now */
+.need-support {
+    max-width: 1140px;
+    height: 313px;
+    margin: 65px auto;
+    background-image: url(/assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    background: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), url(Email);
+}
+
+.need-support {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-head {
+    margin-top: 65px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+.footer-para {
+    color: rgb(255, 255, 255);
+    width: 550px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+.footer-input {
+    width: 500px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+
+.footer-btn {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#place {
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    
+}
+
+/* footer two section start now */
