@@ -404,10 +404,35 @@ body {
     color: rgba(13, 19, 33, 0.4);
     font-size: 16px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 19px;
     letter-spacing: 0%;
     text-align: left;
-    
+
 }
 
 /* footer two section start now */
+.footer-two-section {
+    max-width: 1440px;
+    height: 100px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.last-head {
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 150px;
+}
+.last-img{
+    margin-right: 150px;
+    gap: 20px;
+    cursor: pointer;
+}
